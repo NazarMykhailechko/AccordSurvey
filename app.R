@@ -31,11 +31,37 @@ onStop(function() {
   poolClose(pool)
 })
 
-#question <- ("Виберіть ваше відділення:",)
+question1 <- c("Виберіть ваше відділення:","Виберіть ваше відділення:", "Виберіть ваше відділення:",
+              "НА РІВНІ КЕРІВНИКА","НА РІВНІ КЕРІВНИКА","НА РІВНІ КЕРІВНИКА","НА РІВНІ КЕРІВНИКА","НА РІВНІ КЕРІВНИКА","НА РІВНІ КЕРІВНИКА",
+              "НА РІВНІ ЗАМ.КЕРІВНИКА","НА РІВНІ ЗАМ.КЕРІВНИКА","НА РІВНІ ЗАМ.КЕРІВНИКА","НА РІВНІ ЗАМ.КЕРІВНИКА","НА РІВНІ ЗАМ.КЕРІВНИКА","НА РІВНІ ЗАМ.КЕРІВНИКА",
+              "НА РІВНІ ЕКОНОМІСТІВ","НА РІВНІ ЕКОНОМІСТІВ","НА РІВНІ ЕКОНОМІСТІВ","НА РІВНІ ЕКОНОМІСТІВ","НА РІВНІ ЕКОНОМІСТІВ","НА РІВНІ ЕКОНОМІСТІВ")
+option <- c("0 відділення","1 відділення","2 відділення","0","1","2","3","4","5","0","1","2","3","4","5","0","1","2","3","4","5")
+input_type <- c("picker","picker","picker","matrix","matrix","matrix","matrix","matrix","matrix","matrix","matrix","matrix","matrix","matrix","matrix","matrix","matrix","matrix","matrix","matrix","matrix")
+input_id <- c("division","division","division","q11","q11","q11","q11","q11","q11","q11","q11","q11","q11","q11","q11","q11","q11","q11","q11","q11","q11")
+dependence <- NA
+dependence_value <- NA
+required <- TRUE
+page <- rep("1", 21)
+questions1 <- data.frame(question = question, option = option, input_type = input_type, dependence = dependence, dependence_value= dependence_value, required = required, page = page)
 
 
 
-questions <- read.csv(file = "111.txt",header = TRUE, sep = ",")
+questions <- data.frame(
+  question = c(rep("Виберіть ваше відділення:", 3), rep("НА РІВНІ КЕРІВНИКА",6),
+               rep("НА РІВНІ ЗАМ.КЕРІВНИКА", 6),
+               rep("НА РІВНІ ЕКОНОМІСТІВ",6)),
+  option = option <- c("0 відділення","1 відділення","2 відділення","0","1","2","3","4","5","0","1","2","3","4","5","0","1","2","3","4","5"),
+  input_type = c(rep("picker", 3), rep("matrix", 18)),
+  # For matrix questions, the IDs should be the same for each question
+  # but different for each matrix input unit
+  input_id = c(rep("division", 3), rep("q11", 18)),
+  dependence = NA,
+  dependence_value = NA,
+  required = FALSE,
+  page <- rep("1", 21)
+)
+
+#questions <- read.csv(file = "questions.txt",header = TRUE, sep = ";")
 
 
 #write.csv(x = questions, sep = ";",file = "111.txt")
