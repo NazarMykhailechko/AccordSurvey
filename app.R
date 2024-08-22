@@ -31,8 +31,14 @@ onStop(function() {
   poolClose(pool)
 })
 
+#question <- ("Виберіть ваше відділення:",)
 
-questions <- read.csv2(file = "questions.csv",header = TRUE, sep = ";")
+
+
+questions <- read.csv(file = "111.txt",header = TRUE, sep = ",")
+
+
+#write.csv(x = questions, sep = ";",file = "111.txt")
 
 extendInputType("picker", { shinyWidgets::pickerInput(inputId =  surveyID(),
             label = surveyLabel(),
