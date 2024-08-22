@@ -32,7 +32,7 @@ onStop(function() {
 })
 
 
-questions <- read.csv(file = "questions.txt",header = TRUE, sep = ";")
+questions <- read.csv(file = "questions.txt",header = TRUE, sep = ";", stringsAsFactors=FALSE)
 
 extendInputType("picker", { shinyWidgets::pickerInput(inputId =  surveyID(),
             label = surveyLabel(),
