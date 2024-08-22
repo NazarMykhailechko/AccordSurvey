@@ -10,21 +10,21 @@ library(pool)
 library(DBI)
 
 
-pool <- pool::dbPool(
-  drv = RMySQL::MySQL(),
-  dbname = "quest",
-  host = "127.0.0.1",
-  username = "root",
-  password = "WIN72007@NAZAr"
-)
-
 #pool <- pool::dbPool(
 #  drv = RMySQL::MySQL(),
-#  dbname = "heroku_623d565686a87a4",
-#  host = "eu-cluster-west-01.k8s.cleardb.net",
-#  username = "bc6a3dad916b4a",
-#  password = "0c7f407f"
+#  dbname = "quest",
+#  host = "127.0.0.1",
+#  username = "root",
+#  password = "WIN72007@NAZAr"
 #)
+
+pool <- pool::dbPool(
+  drv = RMySQL::MySQL(),
+  dbname = "heroku_623d565686a87a4",
+  host = "eu-cluster-west-01.k8s.cleardb.net",
+  username = "bc6a3dad916b4a",
+  password = "0c7f407f"
+)
 
 onStop(function() {
   print("POOL CLOSED!!!!!!!!!!!!!")
