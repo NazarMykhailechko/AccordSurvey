@@ -91,8 +91,8 @@ questions <- data.frame(
   input_id = c(rep("division", 160), rep("q11", 18),rep("q12", 18),rep("q13", 18),rep("q21", 18),rep("q22", 18),rep("q23", 18),rep("q31", 18),rep("q32", 18),rep("q33", 18),rep("q41", 18),rep("q42", 18),rep("q43", 18)),
   dependence = NA,
   dependence_value = NA,
-  required = FALSE,
-  pages = c(rep(1, 214), rep(2, 54), rep(3, 54), rep(4, 54))
+  required = TRUE
+  #page = c(rep(1, 214), rep(2, 54), rep(3, 54), rep(4, 54))
 )
 
 #questions <- read.csv2(file = "questions.txt",header = TRUE, sep = ";")
