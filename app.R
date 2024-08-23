@@ -92,7 +92,7 @@ questions <- data.frame(
   dependence = NA,
   dependence_value = NA,
   required = FALSE,
-  page = c(rep(1, 214), rep(2, 54), rep(3, 54), rep(4, 54))
+  pages = c(rep(1, 214), rep(2, 54), rep(3, 54), rep(4, 54))
 )
 
 #questions <- read.csv2(file = "questions.txt",header = TRUE, sep = ";")
