@@ -163,7 +163,7 @@ extendInputType("PIBselector", { selectizeInput(
   inputId = surveyID(), 
   label = surveyLabel(),
   multiple = FALSE,
-  choices = c("Search Bar" = "", read.table("workers.txt",header = T,sep = ";")),
+  choices = c("Search Bar" = "", surveyOptions()),
   options = list(
     create = FALSE,
     placeholder = "Пошук працівника",
