@@ -299,7 +299,7 @@ ui <- shiny::fluidPage(use_shiny_title(),
               iDiv11.setAttribute('style', 'text-align: center;margin: 2px;font-size: 1.0rem;font-weight: bold;color:#D22B2B');
               
               document.getElementById('q11').before(iDiv11);
-              document.getElementById('q11').innerHTML = 'ОЦІНІТЬ ВАШІ ЗНАННЯ НАПРЯМУ ЗЕД (ОПЕРАЦІЇ ПРОДАЖУ КУПІВЛІ БЕЗГОТІВКОВОЇ ІНОЗЕМНОЇ ВАЛЮТИ)';
+              document.getElementById('q11').innerHTML = 'ОЦІНІТЬ ВАШІ ЗНАННЯ/ ЗНАННЯ  ВАШИХ ПІДЛЕГЛИХ ЗА НАПРЯМОМ ЗЕД (ОПЕРАЦІЇ ПРОДАЖУ КУПІВЛІ БЕЗГОТІВКОВОЇ ІНОЗЕМНОЇ ВАЛЮТИ)';
               
               
               
@@ -308,7 +308,7 @@ ui <- shiny::fluidPage(use_shiny_title(),
               iDiv12.setAttribute('style', 'text-align: center;margin: 2px;font-size: 1.0rem;font-weight: bold;color:#D22B2B');
               
               document.getElementById('q12').before(iDiv12);
-              document.getElementById('q12').innerHTML = 'ОЦІНІТЬ ВАШЕ ВМІННЯ ТА ПОСТІЙНУ ЩОДЕННУ РОБОТУ ПО ЗАЛУЧЕННЮ КЛІЄНТІВ НА ЦЕЙ НАПРЯМ';
+              document.getElementById('q12').innerHTML = 'ОЦІНІТЬ ВАШЕ ВМІННЯ/ВМІННЯ ВАШИХ ПІДЛЕГЛИХ ТА ПОСТІЙНУ ЩОДЕННУ РОБОТУ ПО ЗАЛУЧЕННЮ КЛІЄНТІВ НА ЦЕЙ НАПРЯМ';
               
               
               var iDiv13 = document.createElement('div');
@@ -316,7 +316,7 @@ ui <- shiny::fluidPage(use_shiny_title(),
               iDiv13.setAttribute('style', 'text-align: center;margin: 2px;font-size: 1.0rem;font-weight: bold;color:#D22B2B');
               
               document.getElementById('q13').before(iDiv13);
-              document.getElementById('q13').innerHTML = 'ОЦІНІТЬ ВАШЕ ВМІННЯ ЗДІЙСНЮВАТИ КОМУНІКАЦІЮ ПО ЦЬОМУ НАПРЯМУ В СЕРЕДИНІ БАНКУ, З ДЕПАРТАМЕНТОМ ВАЛЮТНОГО НАГЛЯДУ, УФМ ТОЩО, ДЛЯ ВИРІШЕННЯ СКЛАДНИХ ПИТАНЬ ПО КЛІЄНТУ';
+              document.getElementById('q13').innerHTML = 'ОЦІНІТЬ ВАШЕ ВМІННЯ/ВМІННЯ ВАШИХ ПІДЛЕГЛИХ ЗДІЙСНЮВАТИ КОМУНІКАЦІЮ ПО ЦЬОМУ НАПРЯМУ В СЕРЕДИНІ БАНКУ, З ДЕПАРТАМЕНТОМ ВАЛЮТНОГО НАГЛЯДУ, УФМ ТОЩО, ДЛЯ ВИРІШЕННЯ СКЛАДНИХ ПИТАНЬ ПО КЛІЄНТУ';
 
 
               var iDiv21 = document.createElement('div');
@@ -324,7 +324,7 @@ ui <- shiny::fluidPage(use_shiny_title(),
               iDiv21.setAttribute('style', 'text-align: center;margin: 2px;font-size: 1.0rem;font-weight: bold;color:#D22B2B');
               
               document.getElementById('q21').before(iDiv21);
-              document.getElementById('q21').innerHTML = 'ОЦІНІТЬ ВАШІ ЗНАННЯ НАПРЯМУ СПІВПРАЦІ З ЮРИДИЧНИМИ ОСОБАМИ - РОЗРАХУНКОВО-КАСОВОГО ОБСЛУГОВУВАННЯ ЮР.ОСІБ';
+              document.getElementById('q21').innerHTML = 'ОЦІНІТЬ ВАШЕ ЗНАННЯ/ЗНАННЯ ВАШИХ ПІДЛЕГЛИХ  НАПРЯМУ СПІВПРАЦІ З ЮРИДИЧНИМИ ОСОБАМИ - РОЗРАХУНКОВО-КАСОВОГО ОБСЛУГОВУВАННЯ ЮР.ОСІБ';
               
               
               
@@ -333,7 +333,7 @@ ui <- shiny::fluidPage(use_shiny_title(),
               iDiv22.setAttribute('style', 'text-align: center;margin: 2px;font-size: 1.0rem;font-weight: bold;color:#D22B2B');
               
               document.getElementById('q22').before(iDiv22);
-              document.getElementById('q22').innerHTML = 'ОЦІНІТЬ ВАШЕ ВМІННЯ ТА ПОСТІЙНУ ЩОДЕННУ РОБОТУ ПО ЗАЛУЧЕННЮ НОВИХ КЛІЄНТІВ (ЮР.ОСІБ) НА ВІДКРИТТЯ РАХУНКІВ У БАНКУ, У Т.Ч. ДЛЯ РКО';
+              document.getElementById('q22').innerHTML = 'ОЦІНІТЬ ВАШЕ ВМІННЯ/ВМІННЯ ВАШИХ ПІДЛЕГЛИХ ТА ПОСТІЙНУ ЩОДЕННУ РОБОТУ ПО ЗАЛУЧЕННЮ НОВИХ КЛІЄНТІВ (ЮР.ОСІБ) НА ВІДКРИТТЯ РАХУНКІВ У БАНКУ, У Т.Ч. ДЛЯ РКО';
               
 
               var iDiv23 = document.createElement('div');
@@ -341,7 +341,7 @@ ui <- shiny::fluidPage(use_shiny_title(),
               iDiv23.setAttribute('style', 'text-align: center;margin: 2px;font-size: 1.0rem;font-weight: bold;color:#D22B2B');
               
               document.getElementById('q23').before(iDiv23);
-              document.getElementById('q23').innerHTML = 'ОЦІНІТЬ ВАШЕ ВМІННЯ ЗДІЙСНЮВАТИ КОМУНІКАЦІЮ ПО ЦЬОМУ НАПРЯМУ В СЕРЕДИНІ БАНКУ, З ВІДДІЛАМИ KYC, УФМ ТА ІНШИМИ';
+              document.getElementById('q23').innerHTML = 'ОЦІНІТЬ ВАШЕ ВМІННЯ/ВМІННЯ ВАШИХ ПІДЛЕГЛИХ ЗДІЙСНЮВАТИ КОМУНІКАЦІЮ ПО ЦЬОМУ НАПРЯМУ В СЕРЕДИНІ БАНКУ, З ВІДДІЛАМИ KYC, УФМ ТА ІНШИМИ';
               
               
               
@@ -350,7 +350,7 @@ ui <- shiny::fluidPage(use_shiny_title(),
               iDiv31.setAttribute('style', 'text-align: center;margin: 2px;font-size: 1.0rem;font-weight: bold;color:#D22B2B');
               
               document.getElementById('q31').before(iDiv31);
-              document.getElementById('q31').innerHTML = 'ОЦІНІТЬ ВАШІ ЗНАННЯ ПРОДУКТУ -  ПРИЙОМ ПЛАТЕЖІВ ВІД НАСЕЛЕННЯ';
+              document.getElementById('q31').innerHTML = 'ОЦІНІТЬ ВАШЕ ЗНАННЯ/ЗНАННЯ ВАШИХ ПІДЛЕГЛИХ ПРОДУКТУ -  ПРИЙОМ ПЛАТЕЖІВ ВІД НАСЕЛЕННЯ';
               
               
               var iDiv32 = document.createElement('div');
@@ -358,7 +358,7 @@ ui <- shiny::fluidPage(use_shiny_title(),
               iDiv32.setAttribute('style', 'text-align: center;margin: 2px;font-size: 1.0rem;font-weight: bold;color:#D22B2B');
               
               document.getElementById('q32').before(iDiv32);
-              document.getElementById('q32').innerHTML = 'ОЦІНІТЬ ВАШЕ ВМІННЯ ТА ПОСТІЙНУ ЩОДЕННУ РОБОТУ ПО ЗАЛУЧЕННЮ КЛІЄНТІВ НА ЦЕЙ ПРОДУКТ';
+              document.getElementById('q32').innerHTML = 'ОЦІНІТЬ ВАШЕ ВМІННЯ/ВМІННЯ ВАШИХ ПІДЛЕГЛИХ ТА ПОСТІЙНУ ЩОДЕННУ РОБОТУ ПО ЗАЛУЧЕННЮ КЛІЄНТІВ НА ЦЕЙ ПРОДУКТ';
               
               
               
@@ -367,7 +367,7 @@ ui <- shiny::fluidPage(use_shiny_title(),
               iDiv33.setAttribute('style', 'text-align: center;margin: 2px;font-size: 1.0rem;font-weight: bold;color:#D22B2B');
               
               document.getElementById('q33').before(iDiv33);
-              document.getElementById('q33').innerHTML = 'ОЦІНІТЬ ВАШЕ ВМІННЯ ЗДІЙСНЮВАТИ КОМУНІКАЦІЮ ПО ЦЬОМУ НАПРЯМУ В СЕРЕДИНІ БАНКУ, З ДЕПАРТАМЕНТОМ РОЗВИТКУ РОЗРАХУНКОВИХ ОПЕРАЦІЙ ТА ДЕПОЗИТНИХ ПРОДУКТІВ, УФМ, ОПЕРАЦІЙНИМ ДЕПАРТАМЕНТОМ ТОЩО, ДЛЯ ВИРІШЕННЯ СКЛАДНИХ ПИТАНЬ ПО КЛІЄНТУ';
+              document.getElementById('q33').innerHTML = 'ОЦІНІТЬ ВАШЕ ВМІННЯ/ВМІННЯ ВАШИХ ПІДЛЕГЛИХ ЗДІЙСНЮВАТИ КОМУНІКАЦІЮ ПО ЦЬОМУ НАПРЯМУ В СЕРЕДИНІ БАНКУ, З ДЕПАРТАМЕНТОМ РОЗВИТКУ РОЗРАХУНКОВИХ ОПЕРАЦІЙ ТА ДЕПОЗИТНИХ ПРОДУКТІВ, УФМ, ОПЕРАЦІЙНИМ ДЕПАРТАМЕНТОМ ТОЩО, ДЛЯ ВИРІШЕННЯ СКЛАДНИХ ПИТАНЬ ПО КЛІЄНТУ';
               
               
               
@@ -376,7 +376,7 @@ ui <- shiny::fluidPage(use_shiny_title(),
               iDiv41.setAttribute('style', 'text-align: center;margin: 2px;font-size: 1.0rem;font-weight: bold;color:#D22B2B');
               
               document.getElementById('q41').before(iDiv41);
-              document.getElementById('q41').innerHTML = 'ОЦІНІТЬ ВАШІ ЗНАННЯ ПРОДУКТУ -  СТРОКОВІ ДЕПОЗИТИ ФІЗ ОСІБ';
+              document.getElementById('q41').innerHTML = 'ОЦІНІТЬ ВАШЕ ЗНАННЯ/ЗНАННЯ ВАШИХ ПІДЛЕГЛИХ ПРОДУКТУ -  СТРОКОВІ ДЕПОЗИТИ ФІЗ ОСІБ';
               
               
               var iDiv42 = document.createElement('div');
@@ -384,7 +384,7 @@ ui <- shiny::fluidPage(use_shiny_title(),
               iDiv42.setAttribute('style', 'text-align: center;margin: 2px;font-size: 1.0rem;font-weight: bold;color:#D22B2B');
               
               document.getElementById('q42').before(iDiv42);
-              document.getElementById('q42').innerHTML = 'ОЦІНІТЬ ВАШЕ ВМІННЯ ТА ПОСТІЙНУ ЩОДЕННУ РОБОТУ ПО ЗАЛУЧЕННЮ КЛІЄНТІВ НА ЦЕЙ ПРОДУКТ';
+              document.getElementById('q42').innerHTML = 'ОЦІНІТЬ ВАШЕ ВМІННЯ/ВМІННЯ ВАШИХ ПІДЛЕГЛИХ ТА ПОСТІЙНУ ЩОДЕННУ РОБОТУ ПО ЗАЛУЧЕННЮ КЛІЄНТІВ НА ЦЕЙ ПРОДУКТ';
               
               
               
@@ -393,7 +393,7 @@ ui <- shiny::fluidPage(use_shiny_title(),
               iDiv43.setAttribute('style', 'text-align: center;margin: 2px;font-size: 1.0rem;font-weight: bold;color:#D22B2B');
               
               document.getElementById('q43').before(iDiv43);
-              document.getElementById('q43').innerHTML = 'ОЦІНІТЬ ВАШЕ ВМІННЯ ЗДІЙСНЮВАТИ КОМУНІКАЦІЮ ПО ЦЬОМУ НАПРЯМУ В СЕРЕДИНІ БАНКУ, З ДЕПАРТАМЕНТОМ РОЗВИТКУ РОЗРАХУНКОВИХ ОПЕРАЦІЙ ТА ДЕПОЗИТНИХ ПРОДУКТІВ, УФМ, ОПЕРАЦІЙНИМ ДЕПАРТАМЕНТОМ  ТОЩО, ДЛЯ ВИРІШЕННЯ СКЛАДНИХ ПИТАНЬ ПО КЛІЄНТУ';
+              document.getElementById('q43').innerHTML = 'ОЦІНІТЬ ВАШЕ ВМІННЯ/ВМІННЯ ВАШИХ ПІДЛЕГЛИХ ЗДІЙСНЮВАТИ КОМУНІКАЦІЮ ПО ЦЬОМУ НАПРЯМУ В СЕРЕДИНІ БАНКУ, З ДЕПАРТАМЕНТОМ РОЗВИТКУ РОЗРАХУНКОВИХ ОПЕРАЦІЙ ТА ДЕПОЗИТНИХ ПРОДУКТІВ, УФМ, ОПЕРАЦІЙНИМ ДЕПАРТАМЕНТОМ  ТОЩО, ДЛЯ ВИРІШЕННЯ СКЛАДНИХ ПИТАНЬ ПО КЛІЄНТУ';
               
               
           </script>
